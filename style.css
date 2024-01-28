@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4203a9, #90bafc);
+}
+.app {
+    margin: 100px auto 0;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    min-height: 100vh;
+}
+.topic-1 {
+    color: white;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+.topic-2 {
+    color: rgb(253, 253, 63);
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 18px 18px;
+    border-radius: 6px;
+    display: flex;
+    
+}
+input {
+    padding: 8px;
+    width: 300px;
+    margin-right: 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+}
+button {
+    flex: 1;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgb(255, 238, 0);
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.7;
+}
+.display-age {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.display-age p span {
+    color: aqua;
+}
